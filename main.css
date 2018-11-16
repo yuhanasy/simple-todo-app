@@ -1,0 +1,111 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: linear-gradient(135deg, #2AF598, #08AEEA);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #202020;
+}
+
+.f2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #202020;
+}
+
+.f3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 18px;
+  color: #9592a8;
+}
+
+.f4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 18px;
+  color: #08AEEA;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+ul li.checked label {
+  color: #9592a8;
+  text-decoration: line-through;
+}
+
+ul li button.close {
+  width: 42px;
+  height: 42px;
+  background: transparent;
+  border: none;
+  color: #08AEEA;
+  padding: 0;
+}
+
+
+
+.app-container {
+  width: 320px;
+  height: 460px;
+  background: #fff;
+  border-radius: 8px;
+  position: relative;
+  padding: 10px 40px;
+}
+
+#today-date {
+  height: 40px;
+  border-bottom: 1px solid #9592a8;
+}
+
+#input-task {
+  width: 320px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 60px;
+}
+
+#add-task {
+  color: #fff;
+  font-size: 36;
+  width: 60px;
+  height: 60px;
+  background: #08AEEA;
+  border: none;
+  border-radius: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  outline: none;
+}
