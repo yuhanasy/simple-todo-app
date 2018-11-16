@@ -1,9 +1,7 @@
-// $('#today-date').text(Date())
-
 let today = new Date();
 let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
+$('#today-date').text(days[today.getDay()] + ", " + today.getDate() + " " + months[today.getMonth()] + " " + today.getFullYear())
 
 let addBtn = $('#add-task');
 let list = $('#list');
